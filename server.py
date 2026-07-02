@@ -24,7 +24,7 @@ events = [{"id": 1, "title": "Hackathon"},{"id": 2, "title":"Career fair"},
 
 @app.route("/", methods=["GET"])
 def welcome():
-    return "Welcome Home"
+    return "Welcome Home", 200
 
 # TASK: Create a GET route for "/events"
 # This route should return the full list of events as JSON
